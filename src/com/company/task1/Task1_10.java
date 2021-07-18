@@ -6,19 +6,22 @@ public class Task1_10 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter family revenue: ");
-        long input1 = scanner.nextLong();
+        int input1 = scanner.nextInt();
+        int max = 50000, min = 20000;
 
-        boolean revenue;
-        if (input1 >20000 && input1<50000)
-        {
-            revenue = true;
-            System.out.println("family revenue is: "+ revenue);
-        }
-        else {
-            revenue = false;
-            System.out.println("family revenue is: "+revenue);
-        }
+        SubClass subClass1 = new SubClass();
+        subClass1.compareInput(max, min, input1);
 
+    }
+}
 
+class SubClass extends Task1_10 {
+    public boolean compareInput(int max, int min, int input) {
+        if (input > min & input < max) {
+            System.out.println(true);
+            return true;
+        } else
+            System.out.println(false);
+        return false;
     }
 }
