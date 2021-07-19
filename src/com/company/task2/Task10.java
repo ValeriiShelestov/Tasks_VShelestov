@@ -19,7 +19,7 @@ public class Task10 {
             case 5:
                 System.out.println("мизинец ");
                 break;
-                        default:
+            default:
                 System.out.println("такого пальца нет");
         }
     }

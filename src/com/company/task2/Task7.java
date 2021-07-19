@@ -8,7 +8,9 @@ public class Task7 {
         if (numberOfSales > 10) {
             revenue = basicSum + 250;
             System.out.println("total revenue = " + revenue);
-        } else System.out.println("total revenue = " + basicSum);
+        } else {
+            System.out.println("total revenue = " + basicSum);
+        }
 
     }
 }

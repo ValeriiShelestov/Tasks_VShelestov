@@ -6,10 +6,10 @@ public class Task6 {
         int b = -1;
         double x;
         try {
-            if (a == 0)
+            if (a == 0) {
                 throw new ArithmeticException();
 
-            else {
+            } else {
                 x = (double) -b / a;
                 System.out.println("x = " + x);
             }
