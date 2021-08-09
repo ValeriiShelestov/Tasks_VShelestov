@@ -1,4 +1,4 @@
-package task3;
+package com.company.task3;
 
 public class Task2SinX {
     public static void main(String[] args) {
@@ -9,6 +9,5 @@ public class Task2SinX {
             System.out.println(mas[i] + " ");
             x = x + 10;
         }
-
     }
 }

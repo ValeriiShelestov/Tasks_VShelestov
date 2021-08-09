@@ -1,7 +1,4 @@
-package task3;
-
-import java.util.Arrays;
-import java.util.Collections;
+package com.company.task3;
 
 public class Task5StringReverse {
     public static void main(String[] args) {

@@ -1,7 +1,4 @@
-package task3;
-
-import java.util.Arrays;
-import java.util.Random;
+package com.company.task3;
 
 public class Task4Palindrom {
 
